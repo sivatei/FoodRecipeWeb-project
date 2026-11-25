@@ -1,16 +1,41 @@
-# React + Vite
+# Food Recipe Web
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A React web application focused on traditional food recipes and cooking-related content. The interface includes recipe discovery, Khmer food content, cooking pages, subscriptions, and payment-related screens.
 
-Currently, two official plugins are available:
+## Features
+- Home page with banner and cuisine sections
+- Khmer food section
+- Recipe listing and recipe detail pages
+- Cooking content
+- Subscription and payment pages
+- Explore and About pages
+- Login page
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Tech stack
+- React 19
+- Vite
+- React Router
+- Tailwind CSS
+- Lucide React and React Icons
 
-## React Compiler
+## Run locally
+Requirements: Node.js and npm.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+```bash
+git clone https://github.com/sivatei/FoodRecipeWeb-project.git
+cd FoodRecipeWeb-project
+npm install
+npm run dev
+```
 
-## Expanding the ESLint configuration
+Open the local URL printed by Vite, usually `http://localhost:5173`.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## Production build
+```bash
+npm run build
+npm run preview
+```
+
+The application source is in `src/`, with reusable UI components in `src/components/`.
+
+This is a learning and portfolio project. Some screens may be prototypes; refer to the running application for the current implementation.
